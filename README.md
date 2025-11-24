@@ -86,10 +86,13 @@ Below are the simulation results generated from this project.
 Make sure all GIFs are placed inside the `assets/` folder.
 
 # Simulation Preview
-
-![Trajectory Planning](assets/sim_ik_cubic_random_targets.gif)IK + Cubic Trajectory to Random Targets
-![Trajectory Planning](assets/sim_ik_cubic_random_targets2.gif)Segment-based Target Switching with Smooth Joint Motion
-![Trajectory Planning](assets/sim_ik_cubic_random_targets3.gif)Continuous IK-Driven Motion Tracking — No Jerks or Stops
+- IK + Cubic Trajectory to Random Targets
+- Segment-based Target Switching with Smooth Joint Motion
+- Continuous IK-Driven Motion Tracking — No Jerks or Stops
+- 
+![Trajectory Planning](assets/sim_ik_cubic_random_targets.gif)
+![Trajectory Planning](assets/sim_ik_cubic_random_targets2.gif)
+![Trajectory Planning](assets/sim_ik_cubic_random_targets3.gif)
 
 ---
 
