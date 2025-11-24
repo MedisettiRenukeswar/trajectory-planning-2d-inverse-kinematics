@@ -85,11 +85,11 @@ So the arm **continuously and smoothly follows new targets**, without snapping o
 Below are the simulation results generated from this project.  
 Make sure all GIFs are placed inside the `assets/` folder.
 
-| Simulation Preview | Description |
-|-------------------|-------------|
-| ![Trajectory Planning](assets/sim_ik_cubic_random_targets.gif) | IK + Cubic Trajectory to Random Targets |
-| ![Trajectory Planning](assets/sim_ik_cubic_random_targets2.gif) | Segment-based Target Switching with Smooth Joint Motion |
-| ![Trajectory Planning](assets/sim_ik_cubic_random_targets3.gif) | Continuous IK-Driven Motion Tracking — No Jerks or Stops |
+# Simulation Preview
+
+![Trajectory Planning](assets/sim_ik_cubic_random_targets.gif)IK + Cubic Trajectory to Random Targets
+![Trajectory Planning](assets/sim_ik_cubic_random_targets2.gif)Segment-based Target Switching with Smooth Joint Motion
+![Trajectory Planning](assets/sim_ik_cubic_random_targets3.gif)Continuous IK-Driven Motion Tracking — No Jerks or Stops
 
 ---
 
@@ -97,9 +97,13 @@ Make sure all GIFs are placed inside the `assets/` folder.
 
 trajectory-planning-2d-inverse-kinematics/
 │
+
 ├── arm_math.py # FK & IK functions for 2-link arm
+
 ├── cubic_trajectory.py # Compute + evaluate cubic interpolation
+
 ├── sim_ik_cubic_random_targets.py# Main simulation + animation
+
 └── README.md
 
 
